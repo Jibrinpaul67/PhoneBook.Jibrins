@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.jibrin.contactsapp2"
+    namespace = "com.jibrin.phonebook"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.jibrin.contactsapp2"
+        applicationId = "com.jibrin.phonebook"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

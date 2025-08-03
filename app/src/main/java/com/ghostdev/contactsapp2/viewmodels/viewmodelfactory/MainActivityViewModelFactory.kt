@@ -1,9 +1,9 @@
-package com.jibrin.contactsapp2.viewmodels.viewmodelfactory
+package com.jibrin.phonebook.viewmodels.viewmodelfactory
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.jibrin.contactsapp2.repo.ContactsRepo
-import com.jibrin.contactsapp2.viewmodels.MainActivityViewModel
+import com.jibrin.phonebook.repo.ContactsRepo
+import com.jibrin.phonebook.viewmodels.MainActivityViewModel
 
 class MainActivityViewModelFactory(private val contactsRepo: ContactsRepo): ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {

@@ -1,4 +1,4 @@
-package com.jibrin.contactsapp2.database
+package com.jibrin.phonebook.database
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -7,7 +7,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.jibrin.contactsapp2.models.ContactsModel
+import com.jibrin.phonebook.models.ContactsModel
 
 @Dao
 interface ContactsDao {

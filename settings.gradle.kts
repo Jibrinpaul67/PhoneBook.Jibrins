@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ContactsApp2"
+rootProject.name = "phonebook"
 include(":app")
  

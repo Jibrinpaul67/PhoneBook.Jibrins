@@ -1,9 +1,9 @@
-package com.jibrin.contactsapp2.viewmodels
+package com.jibrin.phonebook.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.jibrin.contactsapp2.models.ContactsModel
-import com.jibrin.contactsapp2.repo.ContactsRepo
+import com.jibrin.phonebook.models.ContactsModel
+import com.jibrin.phonebook.repo.ContactsRepo
 import kotlinx.coroutines.launch
 
 class AddContactViewModel(private val contactsRepo: ContactsRepo): ViewModel() {

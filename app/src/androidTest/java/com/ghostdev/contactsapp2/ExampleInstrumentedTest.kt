@@ -1,4 +1,4 @@
-package com.jibrin.contactsapp2
+package com.jibrin.phonebook
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.jibrin.contactsapp2", appContext.packageName)
+        assertEquals("com.jibrin.phonebook", appContext.packageName)
     }
 }

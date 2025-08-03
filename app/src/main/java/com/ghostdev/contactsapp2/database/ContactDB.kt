@@ -1,10 +1,10 @@
-package com.jibrin.contactsapp2.database
+package com.jibrin.phonebook.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room.databaseBuilder
 import androidx.room.RoomDatabase
-import com.jibrin.contactsapp2.models.ContactsModel
+import com.jibrin.phonebook.models.ContactsModel
 
 @Database(entities = [ContactsModel::class], version = 1)
 abstract class ContactDB: RoomDatabase() {

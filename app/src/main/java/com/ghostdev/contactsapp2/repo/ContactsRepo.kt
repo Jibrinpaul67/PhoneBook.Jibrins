@@ -1,9 +1,9 @@
-package com.jibrin.contactsapp2.repo
+package com.jibrin.phonebook.repo
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.jibrin.contactsapp2.database.ContactDB
-import com.jibrin.contactsapp2.models.ContactsModel
+import com.jibrin.phonebook.database.ContactDB
+import com.jibrin.phonebook.models.ContactsModel
 
 class ContactsRepo(private val contactDB: ContactDB) {
 

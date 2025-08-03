@@ -1,4 +1,4 @@
-package com.jibrin.contactsapp2
+package com.jibrin.phonebook
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,12 +13,12 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.jibrin.contactsapp2.database.ContactDB
-import com.jibrin.contactsapp2.databinding.ActivityEditContactBinding
-import com.jibrin.contactsapp2.models.ContactsModel
-import com.jibrin.contactsapp2.repo.ContactsRepo
-import com.jibrin.contactsapp2.viewmodels.EditContactViewModel
-import com.jibrin.contactsapp2.viewmodels.viewmodelfactory.EditContactViewModelFactory
+import com.jibrin.phonebook.database.ContactDB
+import com.jibrin.phonebook.databinding.ActivityEditContactBinding
+import com.jibrin.phonebook.models.ContactsModel
+import com.jibrin.phonebook.repo.ContactsRepo
+import com.jibrin.phonebook.viewmodels.EditContactViewModel
+import com.jibrin.phonebook.viewmodels.viewmodelfactory.EditContactViewModelFactory
 
 class EditContact : AppCompatActivity() {
     private lateinit var binding: ActivityEditContactBinding

@@ -1,4 +1,4 @@
-package com.jibrin.contactsapp2
+package com.jibrin.phonebook
 
 import org.junit.Test
 

@@ -1,12 +1,12 @@
-package com.jibrin.contactsapp2.viewmodels
+package com.jibrin.phonebook.viewmodels
 
 import androidx.databinding.Observable
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.jibrin.contactsapp2.models.ContactsModel
-import com.jibrin.contactsapp2.repo.ContactsRepo
+import com.jibrin.phonebook.models.ContactsModel
+import com.jibrin.phonebook.repo.ContactsRepo
 import kotlinx.coroutines.launch
 
 class EditContactViewModel(private val contactsRepo: ContactsRepo): ViewModel(), Observable {

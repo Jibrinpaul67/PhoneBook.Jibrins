@@ -1,12 +1,12 @@
-package com.jibrin.contactsapp2
+package com.jibrin.phonebook
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.jibrin.contactsapp2.databinding.CardItemBinding
-import com.jibrin.contactsapp2.models.ContactsModel
+import com.jibrin.phonebook.databinding.CardItemBinding
+import com.jibrin.phonebook.models.ContactsModel
 
 
 class RecyclerViewAdapter(private val contactsList: List<ContactsModel>,

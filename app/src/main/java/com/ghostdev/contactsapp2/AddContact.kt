@@ -1,4 +1,4 @@
-package com.jibrin.contactsapp2
+package com.jibrin.phonebook
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,12 +11,12 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
-import com.jibrin.contactsapp2.database.ContactDB
-import com.jibrin.contactsapp2.databinding.ActivityAddContactBinding
-import com.jibrin.contactsapp2.models.ContactsModel
-import com.jibrin.contactsapp2.repo.ContactsRepo
-import com.jibrin.contactsapp2.viewmodels.AddContactViewModel
-import com.jibrin.contactsapp2.viewmodels.viewmodelfactory.AddContactViewModelFactory
+import com.jibrin.phonebook.database.ContactDB
+import com.jibrin.phonebook.databinding.ActivityAddContactBinding
+import com.jibrin.phonebook.models.ContactsModel
+import com.jibrin.phonebook.repo.ContactsRepo
+import com.jibrin.phonebook.viewmodels.AddContactViewModel
+import com.jibrin.phonebook.viewmodels.viewmodelfactory.AddContactViewModelFactory
 
 class AddContact : AppCompatActivity() {
     private lateinit var binding: ActivityAddContactBinding

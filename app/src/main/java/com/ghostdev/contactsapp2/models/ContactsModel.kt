@@ -1,4 +1,4 @@
-package com.jibrin.contactsapp2.models
+package com.jibrin.phonebook.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

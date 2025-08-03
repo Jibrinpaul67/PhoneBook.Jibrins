@@ -1,4 +1,4 @@
-package com.jibrin.contactsapp2
+package com.jibrin.phonebook
 
 import android.content.Intent
 import android.os.Bundle
